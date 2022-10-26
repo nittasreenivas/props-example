@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.each-poki {
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.poki-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
